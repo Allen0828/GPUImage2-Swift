@@ -19,6 +19,9 @@
 		A867EBCA24E3C63D00A301B3 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = A867EBC524E3C63D00A301B3 /* lookup.png */; };
 		A867EBCB24E3C63D00A301B3 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = A867EBC624E3C63D00A301B3 /* lookup_amatorka.png */; };
 		A867EBCC24E3C63D00A301B3 /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = A867EBC724E3C63D00A301B3 /* lookup_miss_etikate.png */; };
+		A87B6E7624E3FD2D009C5B07 /* AEPublishFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B6E6F24E3FD2D009C5B07 /* AEPublishFilterController.swift */; };
+		A87B6E7724E3FD2D009C5B07 /* AEFilterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B6E7124E3FD2D009C5B07 /* AEFilterImageView.swift */; };
+		A87B6E7824E3FD2D009C5B07 /* AEFilterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B6E7224E3FD2D009C5B07 /* AEFilterCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		A867EBC524E3C63D00A301B3 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
 		A867EBC624E3C63D00A301B3 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_amatorka.png; sourceTree = "<group>"; };
 		A867EBC724E3C63D00A301B3 /* lookup_miss_etikate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_miss_etikate.png; sourceTree = "<group>"; };
+		A87B6E6F24E3FD2D009C5B07 /* AEPublishFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEPublishFilterController.swift; sourceTree = "<group>"; };
+		A87B6E7124E3FD2D009C5B07 /* AEFilterImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEFilterImageView.swift; sourceTree = "<group>"; };
+		A87B6E7224E3FD2D009C5B07 /* AEFilterCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEFilterCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 				A867EB8A24E3B88600A301B3 /* AppDelegate.swift */,
 				A867EB8C24E3B88600A301B3 /* SceneDelegate.swift */,
 				A867EB8E24E3B88600A301B3 /* ViewController.swift */,
+				A87B6E6E24E3FD2D009C5B07 /* Filter */,
 				A867EB9024E3B88600A301B3 /* Main.storyboard */,
 				A867EB9324E3B88800A301B3 /* Assets.xcassets */,
 				A867EB9524E3B88800A301B3 /* LaunchScreen.storyboard */,
@@ -161,6 +168,24 @@
 				A867EBC724E3C63D00A301B3 /* lookup_miss_etikate.png */,
 			);
 			path = LookupImages;
+			sourceTree = "<group>";
+		};
+		A87B6E6E24E3FD2D009C5B07 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				A87B6E6F24E3FD2D009C5B07 /* AEPublishFilterController.swift */,
+				A87B6E7024E3FD2D009C5B07 /* View */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		A87B6E7024E3FD2D009C5B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A87B6E7124E3FD2D009C5B07 /* AEFilterImageView.swift */,
+				A87B6E7224E3FD2D009C5B07 /* AEFilterCellView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A867EB8F24E3B88600A301B3 /* ViewController.swift in Sources */,
+				A87B6E7624E3FD2D009C5B07 /* AEPublishFilterController.swift in Sources */,
+				A87B6E7824E3FD2D009C5B07 /* AEFilterCellView.swift in Sources */,
+				A87B6E7724E3FD2D009C5B07 /* AEFilterImageView.swift in Sources */,
 				A867EB8B24E3B88600A301B3 /* AppDelegate.swift in Sources */,
 				A867EB8D24E3B88600A301B3 /* SceneDelegate.swift in Sources */,
 			);
