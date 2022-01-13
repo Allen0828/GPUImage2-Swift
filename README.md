@@ -3,10 +3,10 @@ swift使用GPUImage做视频滤镜
 
 文章链接： https://blog.csdn.net/weixin_40085372/article/details/82667256
 
-<view><img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/001.PNG" width="100" height="200"></img> 
-<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/002.PNG" width="100" height="200"></img> 
-<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/003.PNG" width="100" height="200"></img> 
-<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/004.PNG" width="100" height="200"></img> 
+<view><img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/001.PNG" width="200" height="400"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/002.PNG" width="200" height="400"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/003.PNG" width="200" height="400"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/004.PNG" width="200" height="400"></img> 
 </view>
 
 
