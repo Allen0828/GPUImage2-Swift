@@ -20,6 +20,7 @@ class AEPublishFilterController: UIViewController {
     static public func instanceInsert(imgs: [UIImage], vc: UIViewController, handle: (([UIImage])->Void)?) {
         let filter = AEPublishFilterController()
         let nav = UINavigationController.init(rootViewController: filter)
+        nav.modalPresentationStyle = .fullScreen
         filter.mode = .insert
         filter.imgs = imgs
         filter.insertHandle = handle
@@ -119,7 +120,7 @@ class AEPublishFilterController: UIViewController {
     private lazy var backItem: UIButton = {
 //        let img = UIImage(named: "white_back_round")
         let item = UIButton()
-        item.setTitle("back", for: .normal)
+        item.setTitle("<<<", for: .normal)
         item.setTitleColor(UIColor.red, for: .normal)
 //        item.setImage(img, for: .normal)
         item.addTarget(self, action: #selector(backItemDidClick), for: .touchUpInside)
@@ -163,7 +164,7 @@ extension AEPublishFilterController {
         view.addSubview(countLabel)
         nextBtn.frame = CGRect(x: UIScreen.main.bounds.size.width - 8 - 68, y: 44 + 6, width: 68, height: 32)
         view.addSubview(nextBtn)
-        backItem.frame = CGRect(x: 8, y: 44 + 6, width: 32, height: 32)
+        backItem.frame = CGRect(x: 8, y: 44 + 6, width: 50, height: 32)
         view.addSubview(backItem)
         
         filterCellView.cellClicked = { [weak self] (filter) in
