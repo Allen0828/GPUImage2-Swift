@@ -3,6 +3,13 @@ swift使用GPUImage做视频滤镜
 
 文章链接： https://blog.csdn.net/weixin_40085372/article/details/82667256
 
+<view><img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/001.PNG" width="100" height="200"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/002.PNG" width="100" height="200"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/003.PNG" width="100" height="200"></img> 
+<img src="https://github.com/Allen0828/GPUImage2-Swift/blob/master/ResultsShow/004.PNG" width="100" height="200"></img> 
+</view>
+
+
 
 ## 运行报错Library not loaded: @rpath/GPUImage.framework/
 一定是选择 new copy files Phase 时  Destination 选错，设置为frameworks 重新编译即可
