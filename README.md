@@ -2,7 +2,7 @@
 swift使用GPUImage做视频滤镜
 
 <a href="https://blog.csdn.net/weixin_40085372/article/details/82667256" target="_blank">
- 中文链接：请点击
+ 详细的使用规则
 </a>
 
 # 效果图
@@ -20,7 +20,7 @@ swift使用GPUImage做视频滤镜
 
 
 # 常见的错误
-在运行GPUImage2时 有肯定奇奇怪怪的问题出现  （欢迎大家补充）
+在运行GPUImage2时 有肯定奇奇怪怪的问题出现  
 ## 在安装完成后 import GPUImage 提示No such module 'GPUImage'
 此问题大概率是 编译还未通过，在确保安装步骤没问题后 强行Command+B 编译一次即可。
 ## 在Release模式下 奔溃EXC_BAD_ACCESS
